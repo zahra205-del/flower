@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achetez des Fleurs & Parfums</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .produits {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .produit {
+            background-color: white;
+            padding: 15px;
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .produit img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .produit h3 {
+            color: #ff6f61;
+            margin: 10px 0;
+        }
+
+        .produit p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .btn-acheter {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .btn-acheter:hover {
+            background-color: #e55a4f;
+        }
+
+        .produit:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Nouvelle section pour le lien de sélection des fleurs */
+        .lien-selection {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .lien-selection a {
+            text-decoration: none;
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .lien-selection a:hover {
+            background-color: #e55a4f;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fleurs & Parfums</h1>
+        <p>Explorez nos magnifiques fleurs et parfums exquis.</p>
+    </header>
+
+    <div class="produits">
+        <!-- Produit 1 -->
+        <div class="produit">
+            <img src="roses bouquet.jpg" alt="Bouquet de Roses">
+            <h3>Bouquet de Roses</h3>
+            <p>Magnifique bouquet de roses fraîches. Idéal pour toutes les occasions.</p>
+            <a href="formulaire projet.html" class="btn-acheter">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 2 -->
+        <div class="produit">
+            <img src="parfum web.webp" alt="Parfum de Luxe">
+            <h3>Parfum de Luxe</h3>
+            <p>Un parfum sophistiqué pour des moments élégants.</p>
+            <a href="formulaire projet.html" class="btn-acheter">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 3 -->
+        <div class="produit">
+            <img src="shopping-parfums.jpg" alt="Bouquet de Tulipes">
+            <h3>Bouquet de Tulipes</h3>
+            <p>Tulipes vibrantes et colorées pour égayer n'importe quelle pièce.</p>
+            <a href="formulaire projet.html" class="btn-acheter">Acheter maintenant</a>
+        </div>
+    </div>
+
+    <!-- Lien vers la page de sélection des fleurs -->
+    <div class="lien-selection">
+        <a href="selection-fleurs.html">Sélectionner vos fleurs</a>
+    </div>
+
+</body>
+</html>

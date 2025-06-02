@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explorez notre collection de magnifiques fleurs.">
+    <meta name="keywords" content="fleurs, bouquets, roses, tulipes, nature">
+    <title>Galerie de Fleurs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item {
+      text-align: center;
+      border:  solid pink 2px;
+    }
+        .description {
+      margin-top: 10px;
+      font-size: 16px;
+      color: rgb(240, 83, 109);
+      font-style: italic;
+    }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+        } */
+
+        /* menu */
+        nav a:hover {
+            background-color: #ff6f61;
+            color: black;
+        }
+
+
+        nav a:active {
+            background-color: rgb(240, 83, 109);
+            color: black;
+        }
+
+
+        .links{
+            color: #f9f9f9;
+            text-decoration: none;
+        }
+        nav{
+            background-color: #ff6f61;
+            
+            
+        }
+        nav a{
+            color: white;
+            display: inline;
+            padding: 15px 20px;
+            font-size: 20px;
+            margin: 5px;
+            
+            line-height: 50px;
+        }
+/* bouton panier */
+.panier-btn {
+            background-color: rgb(208, 128, 141);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            animation: btn 1.5s infinite ease-in-out;
+        }
+        @keyframes btn {
+    0% { transform: scale(1); background: rgb(208, 128, 141); }
+    50% { transform: scale(1.05); background: rgb(208, 128, 141); }
+    100% { transform: scale(1); background:rgb(208, 128, 141); }
+}
+
+        footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e5594fca;
+    color: rgb(231, 216, 221);
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* New section for the selection link */
+        
+    </style>
+</head>
+<body>
+    
+    <!-- Menu de navigation -->
+    <nav>
+        <a href="index.html" class="links">Accueil</a>
+        <a href="photo fleurs.html"  class="links">Voir les Fleurs</a>
+        <a href="#footer "  class="links">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Galerie de Fleurs</h1>
+        <p>Découvrez nos magnifiques fleurs !</p>
+    </header>
+
+    <div class="gallery">
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.48 PM.jpeg" alt="Bouquet de Roses">
+          <p class="description">Les fleurs s'épanouissent dans une danse silencieuse, leurs pétales colorés caressant l'air comme un souffle de poésie.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.47 PM (2).jpeg" alt="Bouquet de Tulipes">
+          <p class="description">Sous les rayons du soleil, les fleurs semblent murmurer des secrets de beauté, offrant à nos yeux un spectacle éphémère mais inoubliable.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.46 PM.jpeg" alt="Bouquet de Lys">
+          <p class="description">Les fleurs murmurent des secrets de beauté.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.47 PM (4).jpeg" alt="Orchidées">
+          <p class="description">Les pétales de la fleur, douces et veloutées, captent la lumière du matin, révélant un monde de couleurs infinies qui enchantent l'âme.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.45 PM.jpeg" alt="Bouquet de Tournesols">
+          <p class="description">Les fleurs, comme des étoiles éphémères, illuminent la journée.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.48 PM (1).jpeg" alt="Bouquet de Gerberas">
+          <p class="description">Dans le parfum subtil des fleurs, on trouve une poésie silencieuse qui apaise l'esprit et ravive les souvenirs les plus doux.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.47 PM (1).jpeg" alt="Bouquet de Pivoines">
+          <p class="description">Comme des bijoux naturels, les fleurs décorent le paysage avec une élégance infinie, leur éclat fugace ajoutant une touche magique à chaque instant.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-01-25 at 3.08.47 PM (3).jpeg" alt="Bouquet de Violettes">
+          <p class="description">Les fleurs, dans leur fragilité, sont un rappel de la beauté éphémère de la vie, mais aussi de la magnificence qui réside dans chaque instant.</p>
+          <a class="panier-btn" href="fin.html">ajouter au panier </a>
+        </div>
+      </div>
+
+    <!-- <footer>
+        <p>&copy; 2025 Fleurs & Parfums. Tous droits réservés.</p>
+    </footer> -->
+
+    <footer id="footer">
+        <h4>Contactez-nous pour Toute Demande de Fleurs</h4>
+    <div class="contact-info">
+        <p>Email : <a href="fleurs@Sillage.com" class="links">contact@fleurs.com</a></p>
+        <p>Téléphone : +212 6 00 00 00 00</p>
+        <p>
+            Suivez-nous : 
+            <a href="#" target="_blank" class="links">Facebook</a> | 
+            <a href="#" target="_blank" class="links">Instagram</a> | 
+            <a href="#" target="_blank" class="links">Tiktok</a>
+        </p>
+    </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complétez votre achat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .form-container {
+            width: 300px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           
+        }
+
+        .form-container h2 {
+            text-align: center;
+            color: #ff6f61;
+        }
+
+        .form-container label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .form-container input, .form-container textarea, .form-container select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: btn 1.5s infinite ease-in-out ;
+        }
+        @keyframes btn {
+    0% { transform: scale(1); background: #e55a4f; }
+    50% { transform: scale(1.05); background: #e55a4f; }
+    100% { transform: scale(1); background:#e55a4f; }
+}
+
+        .form-container button:hover {
+            background-color: #e55a4f;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background-color: #e55a4f;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-btn:hover {
+            background-color: #b3b3b3;
+        }
+
+/* menu */
+nav a:hover {
+            background-color: #ff6f61;
+            color: black;
+        }
+
+
+        nav a:active {
+            background-color: rgb(240, 83, 109);
+            color: black;
+        }
+
+
+        .links{
+            color: #f9f9f9;
+            text-decoration: none;
+        }
+        nav{
+            background-color: #ff6f61;
+            
+            
+        }
+        nav a{
+            color: white;
+            display: inline;
+            padding: 15px 20px;
+            font-size: 20px;
+            margin: 5px;
+            text-decoration: none;
+            line-height: 50px;
+        }
+
+
+        footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e5594fca;
+    color: rgb(231, 216, 221);
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+    </style>
+</head>
+<body>
+     <!-- Menu de navigation -->
+     <nav>
+        <a href="index.html">Accueil</a>
+        <a href="photo fleurs.html">Voir les Fleurs</a>
+        <a href="#footer">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Complétez votre achat</h1>
+    </header>
+
+    <div class="form-container">
+        <h2>Formulaire de commande</h2>
+        <form action="#" method="POST">
+            <label for="product">Produit</label>
+            <input type="text" id="product" name="product" value="Rose bouquets" >
+
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone number"> Numéro de téléphone</label>
+            <input type="tel" id="number" name="number"  placeholder="06 00 00 00 00 " required>
+
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" required >
+
+            <label for="address">Adresse de livraison</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+    
+            <label for="payment">Méthode de paiement</label>
+            <select id="payment" name="payment" required>
+                <option value="credit_card">Carte de crédit</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank_transfer">Virement bancaire</option>
+            </select>
+
+            <button type="submit" >Compléter l'achat</button>
+        </form>
+        <a href="index.html" class="back-btn" >Retour à la page d'accueil</a>
+    </div>
+
+    <footer id="footer">
+        <h4>Contactez-nous pour Toute Demande de Fleurs</h4>
+    <div class="contact-info">
+        <p>Email : <a href="fleurs@Sillage.com" class="links">contact@fleurs.com</a></p>
+        <p>Téléphone : +212 6 00 00 00 00</p>
+        <p>
+            Suivez-nous : 
+            <a href="#" target="_blank" class="links">Facebook</a> | 
+            <a href="#" target="_blank" class="links">Instagram</a> | 
+            <a href="#" target="_blank" class="links">Tiktok</a>
+        </p>
+    </div>
+    </footer>
+
+</body>
+</html>
